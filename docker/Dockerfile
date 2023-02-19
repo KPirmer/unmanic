@@ -79,7 +79,7 @@ RUN \
 
 
 # Install commonly used command line tools
-ARG JELLYFIN_FFMPEG_VERSION="4.4.1-4"
+ARG JELLYFIN_FFMPEG_VERSION="5.1.2-7"
 ARG NODEJS_VERSION="16.x"
 RUN \
     echo "**** Install FFmpeg for $(uname -m) ****" \
